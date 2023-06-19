@@ -69,7 +69,7 @@ rode o script com o comando `node toggleTheme.js`
 #### Se você quiser ativar a troca de tema na dock:
 * Nas configurações da sua dock, vá até a aba de aparência, ative a configuração de customizar a cor do dash e coloque em qualquer cor.
 * Coloque a opção de customizar opacidade no fixo/fixed e coloque qualquer quantidade de opacidade.
-#### Se você tiver a extensão <a target="_blank" href="https://extensions.gnome.org/extension/3193/blur-my-shell/">Blur my Shell</a> e quiser ativar a troca de tema:
+#### Se você tiver a extensão [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) e quiser ativar a troca de tema:
 * Nas configurações do Blur my Shell, coloque o brilho em 1,00
 * Na cor, troque para qualquer cor e mude a opacidade (fica na parte inferior do menu de trocar a cor) para qualquer quantidade desde que não seja totalmente transparente.
 
