@@ -89,7 +89,7 @@ brightness=1.0
 color=(1.0, 1.0, 1.0, 0.20000000000000001)
 sigma=60
 ```
-Como você pode ver, a key para mudar o fundo e a opacidade é `color`.
+Como você pode ver, a key para mudar o fundo e a opacidade é `color`.<br>
 A sintaxe é `($COLOR, $COLOR, $COLOR, $OPACITY)`, porque os três primeiros valores são as cores e o último é a opacidade.
 
 <br>
@@ -115,6 +115,6 @@ show-apps-at-top=true
 show-mounts=false
 transparency-mode='FIXED'
 ```
-Dessa vez, a key para mudar a color é `background-color` e, como a opacidade não está no mesmo comando da cor, a chave da opacidade é `background-opacity`.
-A sintaxe é `'rgb($COLOR, $COLOR, $COLOR)'` **(se houver aspas, elas devem ser incluidas na chave do JSON)**, porque os valores são apenas as cores.
+Dessa vez, a key para mudar a color é `background-color` e, como a opacidade não está no mesmo comando da cor, a chave da opacidade é `background-opacity`. <br>
+A sintaxe é `'rgb($COLOR, $COLOR, $COLOR)'` **(se houver aspas, elas devem ser incluidas na chave do JSON)**, porque os valores são apenas as cores. <br>
 Obs.: A chave `opacityOnColor` deve ser `false`, porque não tem a opção de opacidade na parte da cor.
