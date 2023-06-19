@@ -116,5 +116,5 @@ show-mounts=false
 transparency-mode='FIXED'
 ```
 Dessa vez, a key para mudar a color é `background-color` e, como a opacidade não está no mesmo comando da cor, a chave da opacidade é `background-opacity`.
-A sintaxe é `'rgb($COLOR, $COLOR, $COLOR)'` (se houver aspas, elas devem ser incluidas JSON), porque os valores são apenas as cores.
+A sintaxe é `'rgb($COLOR, $COLOR, $COLOR)'` **(se houver aspas, elas devem ser incluidas na chave do JSON)**, porque os valores são apenas as cores.
 Obs.: A chave `opacityOnColor` deve ser `false`, porque não tem a opção de opacidade na parte da cor.
