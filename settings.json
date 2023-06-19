@@ -1,0 +1,47 @@
+{
+  "enables": {
+    "changeIconTheme": true,
+    "changeAppTheme": true,
+    "changeDockTheme": true,
+    "changeBlurTheme": true,
+    "changeBackgroundImage": false
+  },
+  "dockThemeOpacity": 0.2,
+  "blurThemeOpacity": 0.2,
+  "appTheme": {
+    "light": "Mint-Y-Blue",
+    "dark": "Mint-Y-Dark-Blue"
+  },
+  "iconTheme": {
+    "light": "Mint-Y-Legacy-Blue",
+    "dark": "Mint-Y-Legacy-Dark-Blue"
+  },
+  "backgroundImage": {
+    "path": "/home/$USERNAME/Imagens/Auto Wallpapers/",
+    "lightImage": "BigSur Light.jpeg",
+    "darkImage": "BigSur Dark.jpeg"
+  },
+  "config": {
+    "dockTheme": {
+      "extensionName": "dash-to-dock",
+      "opacityOnColor": false,
+      "syntax": "'rgb($COLOR,$COLOR,$COLOR)'",
+      "white": 255,
+      "black": 0,
+      "keys": {
+        "backgroundColor": "background-color",
+        "opacity": "background-opacity"
+      }
+    },
+    "blurTheme": {
+      "extensionName": "blur-my-shell",
+      "opacityOnColor": true,
+      "white": 1,
+      "black": 0,
+      "syntax": "($COLOR, $COLOR, $COLOR, $OPACITY)",
+      "keys": {
+        "backgroundColor": "color"
+      }
+    }
+  }
+}
