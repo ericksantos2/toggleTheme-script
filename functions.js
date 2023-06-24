@@ -13,14 +13,14 @@ function mudaTema(temaProp) {
   const tema = temaProp === 'dark' ? 'light' : 'dark';
   const codigoBase = 'gsettings set org.gnome.desktop.interface';
   if (settings.enables.changeAppTheme) {
-    const appTheme = ` icon-theme ${settings.iconTheme[tema]}`;
+    const appTheme = ` gtk-theme ${settings.appTheme[tema]}`;
     execSync(codigoBase + appTheme);
   }
   if (settings.enables.changeIconTheme) {
-    const iconTheme = ` gtk-theme ${settings.iconTheme[tema]}`;
+    const iconTheme = ` icon-theme ${settings.iconTheme[tema]}`;
     execSync(codigoBase + iconTheme);
   }
-  const prefer = `prefer-${tema}`;
+  const prefer = tema === 'dark' ? 'prefer-dark' : 'default';
   execSync(`${codigoBase} color-scheme ${prefer}`);
   execSync(`${codigoBase} gtk-color-scheme ${prefer}`);
 }
