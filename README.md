@@ -4,7 +4,7 @@
 ## **Um script de mudança de tema entre claro/escuro no gnome.**
 
 ### **Guia** 
-> [Guia do arquivo settings.js](#guiaSettings) <br>
+> [Guia do arquivo settings.json](#guiaSettings) <br>
 > [Configurações necessárias](#requirements) <br>
 > [Como conseguir a sintaxe da extensão](#getsyntax)
 
